@@ -12,8 +12,7 @@ form.addEventListener('submit', event => {
   if (searchData === '') {
     iziToast.error({
       id: 'error',
-      message:
-        'The search field cannot be empty',
+      message: 'The search field cannot be empty',
       position: 'topRight',
       transitionIn: 'fadeInDown',
     });
