@@ -29,9 +29,9 @@ form.addEventListener('submit', event => {
             position: 'topRight',
             transitionIn: 'fadeInDown',
           });
-        } else {
-          renderGallery(hits);
         }
+
+        renderGallery(hits);
       })
       .catch(error => {
         console.error('Error:', error);
